@@ -162,4 +162,8 @@ div .card {
   animation-fill-mode: both;
 }
 
+.espacio {
+  height: 250px;
+}
+
 /*# sourceMappingURL=timeline.css.map */

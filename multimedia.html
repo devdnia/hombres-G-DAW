@@ -15,32 +15,37 @@
 </head>
 
 <body>
-    <!-- MENU -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid d-flex">
-            <img src="./assets/hombresG.svg" alt="Icono Hombres G" width="60" height="60"
-                class="d-inline-block align-text-top ms-5">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./sass.html">Historia</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./multimedia.html">Conciertos</a>
-                    </li>
-                </ul>
-            </div>
+<!-- MENU -->
+<nav class="navbar navbar-light bg-light navbar-expand-lg">
+    <!-- ICONO -->
+    <div class="container-fluid d-flex">
+        <a class="navbar-brand ms-5" href="/home">
+            <img src="./assets/hombresG.svg" alt="" width="60" height="60" class="d-inline-block align-text-top">
+        </a>
+
+        <!-- BOTONES DE NAVEGACION -->
+        <button class="navbar-toggler me-5" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./sass.html">Historia</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./multimedia.html">Conciertos</a>
+                </li>
+            </ul>
         </div>
-    </nav>
-    <!-- MENU hasta aquí -->
-    <!-- FOOTER  -->
+    </div>
+</nav>
+
+<!-- MENU hasta aquí -->
 
     <header class="parallax-completo">
         <div class="texto-hero">
@@ -56,19 +61,20 @@
         </div>
     </header>
 
-    <section class="center espacio">
-        <article class="ms-5">
-            <video controls class="m-5">
+    <section class="d-flex w-100">
+        <article class="ms-5 d-flex row justify-content-center">
+            
+            <video controls class="m-5 col-lg-3">
                 <source src="./assets/videos/174860 (720p).mp4" type="video/mp4">
             </video>
 
 
-            <video controls class="m-5">
+            <video controls class="m-5 col-lg-3">
                 <source src="./assets/videos/192357 (720p).mp4" type="video/mp4">
             </video>
 
 
-            <video controls class="m-5">
+            <video controls class="m-5 col-lg-3">
                 <source src="./assets/videos/192357 (720p).mp4" type="video/mp4">
             </video>
 
@@ -77,69 +83,101 @@
     </section>
 
     <section class="parallax-small">
-        <h2>Menos altura</h2>
-    </section>
-
-    <section class="texto">
-        <h2>Disfruta del efecto parallax</h2>
-    </section>
-
-    <section class="center espacio">
-        <h2>Parrallax Demo</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est architecto qui libero expedita, accusantium
-            eligendi consequuntur voluptates fugiat explicabo, eum pariatur, possimus maxime ipsum iste dolor alias.
-            Quae, sequi. Dolore odio natus quia, aut non suscipit provident doloribus ad. Veritatis delectus non saepe,
-            soluta ut asperiores, at nesciunt omnis dolorum distinctio quasi laboriosam fuga alias. Amet dolores
-            reiciendis commodi impedit! Provident aut nisi minima architecto molestiae, recusandae quibusdam, ipsam
-            voluptatibus necessitatibus quia illo veritatis, est officiis? Voluptatibus necessitatibus doloribus
-            suscipit ratione error in laborum pariatur dicta vitae perferendis autem sint dolorem dolor vel illo, eaque
-            eveniet saepe, voluptatum exercitationem architecto, perspiciatis impedit! Sapiente nihil praesentium veniam
-            esse aspernatur perferendis omnis iusto eaque. Ipsam tempora ullam, explicabo neque, aperiam sunt optio
-            expedita temporibus cupiditate deleniti ea repudiandae consequuntur perspiciatis voluptatum, fugit itaque
-            iusto ab nostrum saepe? Nemo, labore accusantium ipsam reiciendis dicta incidunt earum, assumenda
-            voluptatibus eligendi, eius maxime fugiat perferendis!</p>
-    </section>
-
-    <section class="parallax-small">
-        <h2>Menos altura</h2>
-    </section>
-
-    <section class="texto">
-        <h2>Disfruta del efecto parallax</h2>
-    </section>
-
-    <section class="center espacio">
-        <h2>Parrallax Demo</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est architecto qui libero expedita, accusantium
-            eligendi consequuntur voluptates fugiat explicabo, eum pariatur, possimus maxime ipsum iste dolor alias.
-            Quae, sequi. Dolore odio natus quia, aut non suscipit provident doloribus ad. Veritatis delectus non saepe,
-            soluta ut asperiores, at nesciunt omnis dolorum distinctio quasi laboriosam fuga alias. Amet dolores
-            reiciendis commodi impedit! Provident aut nisi minima architecto molestiae, recusandae quibusdam, ipsam
-            voluptatibus necessitatibus quia illo veritatis, est officiis? Voluptatibus necessitatibus doloribus
-            suscipit ratione error in laborum pariatur dicta vitae perferendis autem sint dolorem dolor vel illo, eaque
-            eveniet saepe, voluptatum exercitationem architecto, perspiciatis impedit! Sapiente nihil praesentium veniam
-            esse aspernatur perferendis omnis iusto eaque. Ipsam tempora ullam, explicabo neque, aperiam sunt optio
-            expedita temporibus cupiditate deleniti ea repudiandae consequuntur perspiciatis voluptatum, fugit itaque
-            iusto ab nostrum saepe? Nemo, labore accusantium ipsam reiciendis dicta incidunt earum, assumenda
-            voluptatibus eligendi, eius maxime fugiat perferendis!</p>
-    </section>
-
-    <section class="parallax-small">
-        <h2>Menos altura</h2>
-    </section>
-
-    <section class="texto">
-        <h2>Disfruta del efecto parallax</h2>
     </section>
 
 
-    <section class="parallax-completo">
+    <section class="parallax-completo-audio">
         <div class="texto-hero">
-            <h2>Desplaza hacia arriba</h2>
+            <h2>AUDIOS</h2>
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-narrow-down" width="44"
+                height="44" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path d="M12 5l0 14" />
+                <path d="M16 15l-4 4" />
+                <path d="M8 15l4 4" />
+            </svg>
         </div>
     </section>
 
 
+    <section class="d-flex justify-content-center mt-5">
+        <article class="ms-5 d-flex">
+
+            <audio src="audio.mp3" controls></audio>
+
+            <audio src="audio.mp3" controls></audio>
+
+            <audio src="audio.mp3" controls></audio>
+
+        </article>
+
+    </section>
+
+
+    <section class="espacio">
+    </section>
+
+    <section class="parallax-small-audio">
+    </section>
+
+    <!-- <section class="center espacio">
+        <h2>Parrallax Demo</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est architecto qui libero expedita, accusantium
+            eligendi consequuntur voluptates fugiat explicabo, eum pariatur, possimus maxime ipsum iste dolor alias.
+            Quae, sequi. Dolore odio natus quia, aut non suscipit provident doloribus ad. Veritatis delectus non saepe,
+            soluta ut asperiores, at nesciunt omnis dolorum distinctio quasi laboriosam fuga alias. Amet dolores
+            reiciendis commodi impedit! Provident aut nisi minima architecto molestiae, recusandae quibusdam, ipsam
+            voluptatibus necessitatibus quia illo veritatis, est officiis? Voluptatibus necessitatibus doloribus
+            suscipit ratione error in laborum pariatur dicta vitae perferendis autem sint dolorem dolor vel illo, eaque
+            eveniet saepe, voluptatum exercitationem architecto, perspiciatis impedit! Sapiente nihil praesentium veniam
+            esse aspernatur perferendis omnis iusto eaque. Ipsam tempora ullam, explicabo neque, aperiam sunt optio
+            expedita temporibus cupiditate deleniti ea repudiandae consequuntur perspiciatis voluptatum, fugit itaque
+            iusto ab nostrum saepe? Nemo, labore accusantium ipsam reiciendis dicta incidunt earum, assumenda
+            voluptatibus eligendi, eius maxime fugiat perferendis!</p>
+    </section> -->
+
+    <!-- <section class="parallax-small">
+        <h2>Menos altura</h2>
+    </section> -->
+
+    <!-- <section class="texto">
+        <h2>Disfruta del efecto parallax</h2>
+    </section> -->
+
+    <!-- <section class="center espacio">
+        <h2>Parrallax Demo</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est architecto qui libero expedita, accusantium
+            eligendi consequuntur voluptates fugiat explicabo, eum pariatur, possimus maxime ipsum iste dolor alias.
+            Quae, sequi. Dolore odio natus quia, aut non suscipit provident doloribus ad. Veritatis delectus non saepe,
+            soluta ut asperiores, at nesciunt omnis dolorum distinctio quasi laboriosam fuga alias. Amet dolores
+            reiciendis commodi impedit! Provident aut nisi minima architecto molestiae, recusandae quibusdam, ipsam
+            voluptatibus necessitatibus quia illo veritatis, est officiis? Voluptatibus necessitatibus doloribus
+            suscipit ratione error in laborum pariatur dicta vitae perferendis autem sint dolorem dolor vel illo, eaque
+            eveniet saepe, voluptatum exercitationem architecto, perspiciatis impedit! Sapiente nihil praesentium veniam
+            esse aspernatur perferendis omnis iusto eaque. Ipsam tempora ullam, explicabo neque, aperiam sunt optio
+            expedita temporibus cupiditate deleniti ea repudiandae consequuntur perspiciatis voluptatum, fugit itaque
+            iusto ab nostrum saepe? Nemo, labore accusantium ipsam reiciendis dicta incidunt earum, assumenda
+            voluptatibus eligendi, eius maxime fugiat perferendis!</p>
+    </section> -->
+
+    <!-- <section class="parallax-small">
+        <h2>Menos altura</h2>
+    </section> -->
+
+    <!-- <section class="texto">
+        <h2>Disfruta del efecto parallax</h2>
+    </section> -->
+
+
+    <!-- <section class="parallax-completo">
+        <div class="texto-hero">
+            <h2>Desplaza hacia arriba</h2>
+        </div>
+    </section> -->
+
+
+    <!-- FOOTER -->
     <footer class="bg-light text-light py-3 fixed-bottom">
         <div class="container-fluid">
             <div class="row justify-content-between">
