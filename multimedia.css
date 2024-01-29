@@ -155,3 +155,21 @@ video {
         width: 24px;
     }
   }
+
+  @media screen and (max-width: 600px) {
+    /* .parallax-completo {
+        background-size: cover;
+        padding: 25rem;
+    } */
+    div.texto-hero{
+        width: 7rem;
+        
+    }
+    h2 {
+        font-size: .75rem;
+    }
+    svg{
+        height: 24px;
+        width: 24px;
+    }
+  }
